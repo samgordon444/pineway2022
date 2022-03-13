@@ -6,8 +6,8 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  purge: [
+  ],
   theme: {
     colors: {
       'dark-green': '#006663',
@@ -26,7 +26,11 @@ module.exports = {
     fontWeight: {
       'medium': 600
     },
-    extend: {},
+    backgroundImage: {
+      'hero': "url('assets/images/hero-collage.png')",
+    },
+    extend: {
+    },
   },
   variants: {
     extend: {},

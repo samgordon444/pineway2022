@@ -1,39 +1,17 @@
+@import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'PT';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/PT.woff') format('woff');
+body {
+  background: #FAF4EE;
 }
-@font-face {
-    font-family: 'PV';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/PV-Regular.woff') format('woff');
-}
-@font-face {
-    font-family: 'PV';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url('~assets/fonts/PV-Medium.woff') format('woff');
-}
-@font-face {
-    font-family: 'RH';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/RH-Regular.woff') format('woff');
-}
-@font-face {
-    font-family: 'RH';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url('~assets/fonts/RH-Medium.woff') format('woff');
+
+@responsive {
+  .button-green {
+    @apply border border-green px-[24px] py-[12px] duration-200
+  }
+  .button-green:hover {
+    @apply text-yellow bg-green
+  }
 }
