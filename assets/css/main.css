@@ -7,11 +7,27 @@ body {
   background: #FAF4EE;
 }
 
+@layer base {
+  h2 {
+    @apply leading-none mb-4
+  }
+}
+
 @responsive {
   .button-green {
-    @apply border border-green px-[24px] py-[12px] duration-200
+    @apply border border-green/20 px-[24px] py-[12px] duration-200 mt-8 inline-block text-dark-green font-medium
   }
   .button-green:hover {
     @apply text-yellow bg-green
+  }
+}
+
+.shop-marquee {
+  animation: marquee 10s linear infinite;
+  transform-origin:-50% 0;
+}
+@keyframes marquee {
+  to {
+    transform:translateX(-400%);
   }
 }

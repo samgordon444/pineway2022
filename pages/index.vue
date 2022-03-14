@@ -2,6 +2,8 @@
 <div>
   <Header />
   <Hero />
+  <Features />
+  <Shop />
 </div>
 </template>
 
