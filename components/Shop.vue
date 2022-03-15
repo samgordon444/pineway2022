@@ -1,6 +1,6 @@
 <template>
-    <section class="text-center py-32 md:py-44">
-        <div class="bg-cream w-full px-[10%] md:px-[5%] lg:px-[10%] pb-16">
+    <section class="flex flex-col text-center py-32 md:py-44">
+        <div class="bg-cream w-full px-[10%] md:px-[5%] lg:px-[10%] pb-16 md:max-w-4xl md:self-center">
             <h2 class="text-green font-brand text-[60px] xl:text-[80px] tracking-tight">Gear &amp; Apparel</h2>
             <p class="text-green font-medium text-lg">Show your love for Pineway with official shirts, hats, and more. A limited selection of products and sizes is also available at the pro shop.</p>
             <a href="" class="

@@ -24,6 +24,7 @@ module.exports = {
       brand: ['PT']
     },
     fontWeight: {
+      'regular': 400,
       'medium': 600
     },
     backgroundImage: {

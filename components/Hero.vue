@@ -14,7 +14,7 @@
     <div class="bg-hero bg-no-repeat bg-top bg-cover">
         <div style="background: linear-gradient(180deg, rgba(0, 102, 99, 0) 0%, #006663 85%); background-position-y:80px; background-repeat:no-repeat" 
         class="pt-72 border-b-dark-green border-b-[60px] md:pb-16">
-            <div class="flex flex-col md:flex-row md:justify-center px-5 text-xl font-serif">
+            <div class="flex flex-col md:flex-row md:justify-center px-5 sm:px-14 md:px-0 text-xl font-serif">
                 <div class="grid grid-flow-row grid-cols-[60%_40%] gap-4">
                     <h2 class="sr-only">Hours</h2>
                     <p class="text-pink">Monday</p>
@@ -25,7 +25,7 @@
                     <p class="text-cream">7am &mdash; 7pm</p>
                 </div>
                 <div class="my-12 self-center md:rotate-[-75deg]"><img src="../assets/images/golfclub.svg"></div>
-                <div class="text-center md:text-left">
+                <div class="text-center md:text-left md:pr-10">
                     <h2 class="sr-only">Location</h2>
                     <p class="text-pink mb-5">Drop by sometime<br>(just not on Mondays).</p>
                     <p class="text-cream">1621 116th St.<br>Pleasant Prairie, WI 53158</p>
