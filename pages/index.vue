@@ -4,6 +4,7 @@
   <Hero />
   <Features />
   <Shop />
+  <Footer />
 </div>
 </template>
 

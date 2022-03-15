@@ -22,12 +22,26 @@ body {
   }
 }
 
-.shop-marquee {
+.marquee {
   animation: marquee 10s linear infinite;
-  transform-origin:-50% 0;
 }
 @keyframes marquee {
   to {
-    transform:translateX(-400%);
+    transform:translate3d(-1440px,0,0);
   }
+}
+
+@responsive {
+  .marquee-wide {
+    animation: marquee-wide 10s linear infinite;
+  }
+  @keyframes marquee-wide {
+    to {
+      transform:translate3d(-1920px,0,0);
+    }
+  }
+}
+
+.marquee div, .marquee-wide div {
+  transform:translate3d(0,0,0);
 }
