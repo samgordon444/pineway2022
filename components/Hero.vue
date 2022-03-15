@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-24">
+  <section class="mt-20">
     <div class="px-10 text-center font-medium">
       <h1
         class="font-serif text-[40px] leading-[50px] tracking-tight text-green"
@@ -25,7 +25,7 @@
                     <p class="text-cream">7am &mdash; 7pm</p>
                 </div>
                 <div class="my-12 self-center md:rotate-[-75deg]"><img src="../assets/images/golfclub.svg"></div>
-                <div class="text-center md:text-left md:pr-10">
+                <div class="text-center md:text-left lg:pr-10">
                     <h2 class="sr-only">Location</h2>
                     <p class="text-pink mb-5">Drop by sometime<br>(just not on Mondays).</p>
                     <p class="text-cream">1621 116th St.<br>Pleasant Prairie, WI 53158</p>
