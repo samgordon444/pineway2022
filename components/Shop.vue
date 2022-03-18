@@ -10,16 +10,16 @@
         </div>
         <div class="w-full overflow-hidden">
             <div class="w-full flex flex-row marquee md:marquee-wide">
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">1</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">2</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">3</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">4</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">5</div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/blue-tee.png"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/cream-tee.png"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/trucker-hat.jpg"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/mug-front.png"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/mug-back.png"></div>
                 <!-- repeat the first four to complete loop -->
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">1</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">2</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">3</div>
-                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0">4</div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/blue-tee.png"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/cream-tee.png"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/trucker-hat.jpg"></div>
+                <div class="w-72 h-72 md:w-96 md:h-96 shrink-0"><img src="../assets/images/mug-front.png"></div>
             </div>
         </div>
     </section>

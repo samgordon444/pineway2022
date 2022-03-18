@@ -15,8 +15,12 @@
       >
       <div class="-mt-36 duration-300 peer-checked:m-0 md:mt-0 md:order-1">
         <ul class="mt-5 mb-5 md:m-0">
-          <li class="mb-5 md:mb-0 md:inline-block md:mr-12">Shop</li>
-          <li class="md:inline-block">Gift Cards</li>
+          <li class="mb-5 md:mb-0 md:inline-block md:mr-12">
+            <a href="" class="hover:text-red hover:underline no-underline text-dark-green">Shop</a>
+          </li>
+          <li class="md:inline-block">
+            <a href="" class="hover:text-red hover:underline no-underline text-dark-green">Gift Cards</a>
+          </li>
         </ul>
       </div>
       <div class="self-center order-last md:order-2">

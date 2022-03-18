@@ -1,0 +1,14 @@
+hero:
+  header: Friday, March 25th!
+  subhead: Opening Day 2022
+  buttonText: ""
+  buttonLink: ""
+hours:
+  - days: Monday
+    times: 9am - 6pm
+  - days: Tuesday - Friday
+    times: 8am - 6pm
+  - days: Tuesday – Wednesday
+    times: "9883837"
+  - days: and another day
+    times: some time
