@@ -23,22 +23,11 @@ body {
 }
 
 .marquee {
-  animation: marquee 10s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 @keyframes marquee {
   to {
-    transform:translate3d(-1440px,0,0);
-  }
-}
-
-@responsive {
-  .marquee-wide {
-    animation: marquee-wide 10s linear infinite;
-  }
-  @keyframes marquee-wide {
-    to {
-      transform:translate3d(-1920px,0,0);
-    }
+    transform:translate3d(-100%, 0, 0);
   }
 }
 

@@ -12,12 +12,12 @@
     <div class="bg-hero bg-no-repeat bg-top bg-cover">
         <div style="background: linear-gradient(180deg, rgba(0, 102, 99, 0) 0%, #006663 85%); background-position-y:80px; background-repeat:no-repeat" 
         class="pt-72 border-b-dark-green border-b-[60px] md:pb-16">
-            <div class="px-5 sm:px-14 lg:px-0 md:text-xl font-serif 
+            <div class="px-5 sm:px-14 lg:px-0 text-xl font-serif 
              grid grid-flow-row lg:grid-flow-col lg:grid-cols-[1fr_1fr]
             ">
                 <div class="lg:pr-20 lg:justify-self-end">
                     <h2 class="sr-only">Hours</h2>
-                    <div v-for="days in homeData.hours" class="grid grid-flow-col grid-cols-[2fr_1fr] gap-0 lg:gap-8 mb-4">
+                    <div v-for="days in homeData.hours" v-bind:key="days.id" class="grid grid-flow-col grid-cols-[2fr_1fr] gap-0 lg:gap-8 mb-4">
                             <p class="text-pink">{{days.days}}</p>
                             <p class="text-cream">{{days.times}}</p>
                     </div>
@@ -26,9 +26,8 @@
                 <div class="relative mt-24 lg:mt-0 text-center lg:text-left lg:pl-20 lg:justify-self-start">
                     <div class="absolute left-1/2 -top-14 lg:top-1/2 -translate-x-1/2 lg:left-0 lg:rotate-[-75deg]"><img src="../assets/images/golfclub.svg"></div>
                     <h2 class="sr-only">Location</h2>
-                    <p class="text-pink mb-5">Drop by sometime.</p>
                     <p class="text-cream">1621 116th St.<br>Pleasant Prairie, WI 53158</p>
-                    <a href="" class="text-sm font-sans text-cream opacity-70 underline hover:opacity-100 hover:text-yellow hover:no-underline duration-300">Get Directions</a>
+                    <a href="https://g.page/pineway-golf-co?share" class="text-sm font-sans text-cream opacity-70 underline hover:opacity-100 hover:text-yellow hover:no-underline duration-300">Get Directions</a>
                 </div>
             </div>
         </div>

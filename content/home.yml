@@ -4,11 +4,18 @@ hero:
   buttonText: ""
   buttonLink: ""
 hours:
-  - days: Monday
-    times: 9am - 6pm
-  - days: Tuesday - Friday
-    times: 8am - 6pm
-  - days: Tuesday – Wednesday
-    times: "9883837"
-  - days: and another day
-    times: some time
+  - days: Monday – Sunday
+    times: 10am – 6pm
+leftFeature:
+  header: header
+  description: ""
+rightFeature:
+  header: header
+shop:
+  header: header
+  shopItem:
+    - item: /img/blue-tee.png
+    - item: /img/cream-tee.png
+    - item: /img/mug-front.png
+    - item: /img/mug-back.png
+    - item: /img/trucker-hat.jpg

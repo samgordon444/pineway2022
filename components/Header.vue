@@ -23,7 +23,7 @@
           </li>
         </ul>
       </div>
-      <div class="self-center order-last md:order-2">
+      <div class="order-last md:order-2">
         <a id="logo" href="">
           <img class="h-20" src="../assets/images/logo.svg" alt="Pineway Golf Co logo" />
         </a>

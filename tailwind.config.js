@@ -6,8 +6,6 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
-  purge: [
-  ],
   theme: {
     colors: {
       'dark-green': '#006663',
