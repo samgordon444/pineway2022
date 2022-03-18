@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 
 # Comment this line out when pushing, uncomment while in dev and run: npx netlify-cms-proxy-server
 local_backend: true
@@ -9,16 +9,26 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    format: 'frontmatter'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+    - label: "Homepage"
+      name: "home"
+      file: "content/home.yml"
+      editor:
+        preview: false
+      fields:
+        - label: "Hero"
+          name: "hero"
+          widget: "object"
+          fields:
+            - {label: Header, name: header, widget: string}
+            - {label: Subhead, name: subhead, widget: string, required: false}
+            - {label: Button Text, name: buttonText, widget: string, required: false}
+            - {label: Button Link, name: buttonLink, widget: string, required: false}
+        - label: "Hours"
+          name: "hours"
+          widget: "list"
+          fields: 
+            - {label: Days, name: days, widget: string}
+            - {label: Times, name: times, widget: string}
