@@ -7,15 +7,26 @@ hours:
   - days: Monday – Sunday
     times: 10am – 6pm
 leftFeature:
-  header: header
-  description: ""
+  header: Lessons
+  description: Whether you're new to the game or have years of experience, there's
+    always something to learn.
+  buttonText: Schedule a Lesson
+  buttonLink: https://squareup.com/appointments/book/myrerq6cxlozqw/LSCFB328PF8G7/start
 rightFeature:
-  header: header
+  header: Gift Cards
+  description: Grab an eGift Card for your favorite golfer. Valid on rentals,
+    lessons, apparel, and season passes (available at the Pro Shop).
+  buttonText: Buy Gift Cards
+  buttonLink: https://squareup.com/gift/MLRQWFAAP8EB6/order
 shop:
-  header: header
+  header: Gear & Apparel
   shopItem:
     - item: /img/blue-tee.png
     - item: /img/cream-tee.png
     - item: /img/mug-front.png
     - item: /img/mug-back.png
     - item: /img/trucker-hat.jpg
+  description: Show your love for Pineway with official shirts, hats, and more. A
+    limited selection of products and sizes is also available at the pro shop.
+  buttonText: Shop Now
+  buttonLink: "#"
