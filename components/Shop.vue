@@ -3,7 +3,7 @@
         <div class="bg-cream w-full px-[10%] md:px-[5%] lg:px-[10%] pb-16 md:max-w-4xl md:self-center">
             <h2 class="text-green font-brand text-[60px] xl:text-[80px] tracking-tight">{{homeData.shop.header}}</h2>
             <p class="text-green font-medium text-lg">{{homeData.shop.description}}</p>
-            <a v-if="homeData.shop.buttonLink && homeData.shop.buttonText" :href="homeData.shop.buttonLink" class="
+            <a v-if="homeData.shop.buttonLink && homeData.shop.buttonText" :href="homeData.shop.buttonLink" target="_blank" class="
             relative z-0 text-green hover:text-red transition-all duration-200 font-brand text-3xl md:text-[40px] mt-10 inline-block
             after:w-full after:bg-pink after:-z-10 after:h-2 after:absolute after:inline-block after:left-0 after:bottom-0 hover:after:h-full after:transition-all after:duration-200
             ">{{homeData.shop.buttonText}}</a>
