@@ -9,7 +9,7 @@
             <h2 class="text-green font-brand text-[60px] xl:text-[80px] tracking-tight">{{homeData.rightFeature.header}}</h2>
             <p class="text-green font-medium text-lg">{{homeData.rightFeature.description}}</p>
             <a v-if="homeData.rightFeature.buttonLink && homeData.rightFeature.buttonText" :href="homeData.rightFeature.buttonLink" class="button-green">{{homeData.rightFeature.buttonText}}</a>
-            <img src="../assets/images/proshop.png" class="absolute bottom-0 h-36 md:left-0 md:-translate-x-1/2 lg:h-48">
+            <img src="../assets/images/proshop.png" class="absolute bottom-0 h-36 md:left-0 md:-translate-x-1/2 lg:h-48 box">
         </div>
     </section>
 </template>

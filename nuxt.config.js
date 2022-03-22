@@ -17,7 +17,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', type: 'text/css', href: 'slick/slick.css' }
-    ]
+    ],
+    script: [
+      {  src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js'},
+      {  src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js' }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
