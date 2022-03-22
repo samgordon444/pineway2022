@@ -5,7 +5,7 @@ backend:
 site_url: https://pinewaygolfco.com
 
 # Comment this line out when pushing, uncomment while in dev and run: npx netlify-cms-proxy-server
-local_backend: true
+# local_backend: true
 
 media_folder: static/img
 public_folder: /img
