@@ -27,7 +27,7 @@
                     <div class="absolute left-1/2 -top-14 lg:top-1/2 -translate-x-1/2 lg:left-0 lg:rotate-[-75deg]"><img src="../assets/images/golfclub.svg"></div>
                     <h2 class="sr-only">Location</h2>
                     <p class="text-cream">1621 116th St.<br>Pleasant Prairie, WI 53158</p>
-                    <a href="https://g.page/pineway-golf-co?share" class="text-sm font-sans text-cream opacity-70 underline hover:opacity-100 hover:text-yellow hover:no-underline duration-300">Get Directions</a>
+                    <a href="https://g.page/pineway-golf-co?share" target="_blank" class="text-sm font-sans text-cream opacity-70 underline hover:opacity-100 hover:text-yellow hover:no-underline duration-300">Get Directions</a>
                 </div>
             </div>
         </div>
