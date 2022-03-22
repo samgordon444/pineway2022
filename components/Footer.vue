@@ -2,9 +2,9 @@
     <footer class="font-medium text-dark-green mx-5">
         <div class="flex flex-col space-x-0 md:space-x-[10%] md:flex-row md:justify-center">
             <div class="flex flex-col pt-10 border-t border-green/40 mb-10 items-start">
-                <a href="" class="mb-4 underline hover:text-red hover:no-underline">Shop</a>
-                <a href="" class="mb-4 underline hover:text-red hover:no-underline">Gift Cards</a>
-                <a href="" class="mb-6 underline hover:text-red hover:no-underline">Schedule a Lesson</a>
+                <a href="" target="_blank" class="mb-4 underline hover:text-red hover:no-underline">Shop</a>
+                <a href="https://squareup.com/gift/MLRQWFAAP8EB6/order" target="_blank" class="mb-4 underline hover:text-red hover:no-underline">Gift Cards</a>
+                <a href="https://squareup.com/appointments/book/myrerq6cxlozqw/LSCFB328PF8G7/start" target="_blank" class="mb-6 underline hover:text-red hover:no-underline">Schedule a Lesson</a>
                 <div class="flex flex-row">
                     <a href="https://www.instagram.com/pinewaygolfco/" class="mr-6 ">
                         <svg class="fill-red hover:fill-green" width="28" height="27" viewBox="0 0 28 27" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@
             </div>
             <div class="pt-10 border-t border-green/40 mb-10">
                 <p>1621 116th St<br>Pleasant Prairie, WI 53158</p>
-                <a href="https://g.page/pineway-golf-co?share" class="underline hover:no-underline hover:text-red inline-block">Get directions</a>
+                <a href="https://g.page/pineway-golf-co?share" target="_blank" class="underline hover:no-underline hover:text-red inline-block">Get directions</a>
                 <p class="mt-6">(262) 249-6994</p>
                 <p class="mt-2">hello@pinewaygolfco.com</p>
             </div>
