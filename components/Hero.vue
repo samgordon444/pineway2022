@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-20">
+  <section class=" mt-5 md:mt-20">
     <div class="px-10 text-center font-medium">
       <h1 class="font-serif text-[40px] leading-[50px] tracking-tight text-green">
         {{homeData.hero.header}}
