@@ -2,7 +2,7 @@
     <footer class="font-medium text-dark-green mx-5">
         <div class="flex flex-col space-x-0 md:space-x-[10%] md:flex-row md:justify-center">
             <div class="flex flex-col pt-10 border-t border-green/40 mb-10 items-start">
-                <a href="" target="_blank" class="mb-4 underline hover:text-red hover:no-underline">Shop</a>
+                <a href="https://pineway-golf-co.square.site" target="_blank" class="mb-4 underline hover:text-red hover:no-underline">Shop</a>
                 <a href="https://squareup.com/gift/MLRQWFAAP8EB6/order" target="_blank" class="mb-4 underline hover:text-red hover:no-underline">Gift Cards</a>
                 <a href="https://squareup.com/appointments/book/myrerq6cxlozqw/LSCFB328PF8G7/start" target="_blank" class="mb-6 underline hover:text-red hover:no-underline">Schedule a Lesson</a>
                 <div class="flex flex-row">
