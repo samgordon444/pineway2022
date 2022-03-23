@@ -39,7 +39,7 @@ collections:
           widget: "object"
           fields:
             - {label: Header, name: header, widget: string}
-            - {label: Description, name: description, widget: string, required: false}
+            - {label: Description, name: description, widget: text, required: false}
             - {label: Button Text, name: buttonText, widget: string, required: false}
             - {label: Button Link, name: buttonLink, widget: string, required: false}
         - label: "Right Feature"
@@ -47,7 +47,7 @@ collections:
           widget: "object"
           fields:
             - {label: Header, name: header, widget: string}
-            - {label: Description, name: description, widget: string, required: false}
+            - {label: Description, name: description, widget: text, required: false}
             - {label: Button Text, name: buttonText, widget: string, required: false}
             - {label: Button Link, name: buttonLink, widget: string, required: false}
         - label: "Shop"
@@ -55,7 +55,7 @@ collections:
           widget: "object"
           fields:
             - {label: Header, name: header, widget: string}
-            - {label: Description, name: description, widget: string, required: false}
+            - {label: Description, name: description, widget: text, required: false}
             - {label: Button Text, name: buttonText, widget: string, required: false}
             - {label: Button Link, name: buttonLink, widget: string, required: false}
             - label: "Shop Item"
