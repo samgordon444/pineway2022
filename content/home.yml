@@ -1,6 +1,6 @@
 hero:
   header: Now open for the 2022 season!
-  subhead: We're back 7 days a week with mini golf, more grass tees, and new
+  subhead: We're back 7 days a week with more grass tees, mini golf, and new
     merchandise in the shop.
   buttonText: Shop New Gear
   buttonLink: https://pineway-golf-co.square.site
@@ -14,11 +14,11 @@ leftFeature:
   buttonText: Schedule a Lesson
   buttonLink: https://squareup.com/appointments/book/myrerq6cxlozqw/LSCFB328PF8G7/start
 rightFeature:
-  header: Gift Cards
-  description: Grab an eGift Card for your favorite golfer. Valid on rentals,
-    lessons, apparel, and season passes (available at the Pro Shop).
-  buttonText: Buy Gift Cards
-  buttonLink: https://squareup.com/gift/MLRQWFAAP8EB6/order
+  header: Mini Golf
+  description: Enjoy mini golf with the whole family! Our 9 hole course is as fun
+    as it is challenging.
+  buttonText: ""
+  buttonLink: ""
 shop:
   header: Gear & Apparel
   shopItem:
