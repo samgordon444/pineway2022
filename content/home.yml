@@ -23,13 +23,10 @@ shop:
   header: Gear & Apparel
   shopItem:
     - item: /img/blue-tee.png
-    - item: /img/unisex-staple-t-shirt-heather-forest-front-623dc6ff1f979.jpg
     - item: /img/cream-tee.png
     - item: /img/mug-front.png
     - item: /img/mug-back.png
     - item: /img/unisex-staple-t-shirt-white-front-623a72a6ad302.png
-    - item: /img/classic-dad-hat-dark-grey-front-623dca4a76ae0.jpg
-    - item: /img/classic-dad-hat-spruce-front-623dc9a0ca4da.jpg
   description: Show your love for Pineway with official shirts, hats, and more. A
     limited selection of products and sizes is also available at the pro shop.
   buttonText: Shop Now
