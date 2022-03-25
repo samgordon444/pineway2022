@@ -4,7 +4,7 @@
       <h1 class="font-serif text-[40px] leading-[50px] tracking-tight text-green">
         {{homeData.hero.header}}
       </h1>
-      <p class="mt-6 text-[22px] leading-7 text-green">
+      <p class="mt-6 text-[22px] leading-8 text-green md:w-6/12 mx-auto">
         {{homeData.hero.subhead}}
       </p>
       <a v-if="homeData.hero.buttonLink && homeData.hero.buttonText" :href="homeData.hero.buttonLink" class="button-green">{{homeData.hero.buttonText}}</a>
