@@ -1,8 +1,9 @@
 hero:
-  header: Opening Friday March 25th
-  subhead: We're excited to welcome you back for the 2022 season!
-  buttonText: ""
-  buttonLink: ""
+  header: Now open for the 2022 season!
+  subhead: We're back 7 days a week with mini golf, more grass tees, and new
+    merchandise in the shop.
+  buttonText: Shop New Gear
+  buttonLink: https://pineway-golf-co.square.site
 hours:
   - days: Monday – Sunday
     times: 10am – 6pm
