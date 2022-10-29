@@ -3,6 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size:2vw;
+}
+@media  (min-width: 768px) {
+  html {
+    font-size:1.2vw;
+  }
+}
+
 body {
   background: #FAF4EE;
 }
@@ -19,6 +28,12 @@ body {
   }
   .button-green:hover {
     @apply text-yellow bg-green
+  }
+  .button-yellow {
+    @apply border border-yellow/20 px-[24px] py-[12px] duration-200 mt-8 inline-block text-yellow font-medium text-[18px]
+  }
+  .button-yellow:hover {
+    @apply text-dark-green bg-yellow
   }
 }
 

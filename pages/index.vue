@@ -1,10 +1,11 @@
 <template>
 <div>
-  <Header :homeData="page" />
+  <Closed :homeData="page" />
+  <!-- <Header :homeData="page" />
   <Hero :homeData="page" />
   <Features :homeData="page" />
   <Shop :homeData="page" />
-  <Footer :homeData="page" />
+  <Footer :homeData="page" /> -->
 </div>
 </template>
 
